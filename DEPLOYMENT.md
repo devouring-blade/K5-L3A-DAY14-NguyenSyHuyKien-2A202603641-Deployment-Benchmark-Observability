@@ -2,7 +2,31 @@
 
 ## Trạng thái
 
-**Chưa deploy cloud; chưa có public URL.** Chủ bài xác nhận chưa có tài khoản cloud. Không có ảnh dashboard/running/test cloud; không xem localhost là URL public. Source Part 6 đã đạt PASS 12/12 (43/43 checks), nhưng vẫn phải deploy và kiểm tra bốn request dưới đây để hoàn thành CP6.
+**Đã deploy thành công trên Render Free và kiểm tra đủ bốn request public.**
+
+- Public URL: **https://day14-agent-twkr.onrender.com**
+- Thời điểm kiểm tra: **08:22:32 ngày 26/11/2026 (GMT+7)**.
+- Commit source đang chạy: `49e0fff79de7d2ee479619bc7ea233ae4f681125`.
+- Web service: `day14-agent`, ID `srv-dc3ogbt9el5s73958h1g`.
+- Redis/Key Value: `day14-redis`, ID `red-dc3ogad9el5s73958dj0`.
+- Blueprint: `day14-agent-lab`, ID `exs-dc3og661egvs73e94h1g`.
+
+| Kiểm tra thực tế | HTTP |
+|---|---:|
+| GET /health | 200 |
+| GET /ready | 200 |
+| POST /ask không có key | 401 |
+| POST /ask có key hợp lệ | 200 |
+
+Kết quả gốc: [reports/public_deployment.json](reports/public_deployment.json). Request được thực thi trên Swagger UI của chính URL public; key chỉ giữ tạm trong bộ nhớ trình duyệt, không lưu vào file hoặc Git. Source Part 6 đã đạt PASS 12/12 (43/43 checks) trước khi deploy.
+
+## Ảnh cloud
+
+- [Render dashboard — Live](screenshots/dashboard.png)
+- [GET /health production](screenshots/running.png)
+- [Swagger UI — thiếu key trả 401](screenshots/test.png)
+
+Ảnh test ghi trường hợp 401 không chứa credential; file JSON ghi đủ bốn trường hợp, gồm request xác thực thành công.
 
 ## Cấu hình đã chuẩn bị
 
@@ -67,4 +91,8 @@ curl -sS -o /dev/null -w '%{http_code}\n' -X POST "$BASE/ask" \
   -d '{"question":"Hello"}'
 ```
 
-Kỳ vọng theo thứ tự: 200, 200, 401, 200. Đây là **kỳ vọng**, chưa phải kết quả cloud đã đo. Sau khi đã chấm có thể xoá tài nguyên cloud theo RULES.md.
+Kết quả public đã xác minh theo thứ tự: **200, 200, 401, 200**. Các lệnh curl trên dùng để chạy lại; bằng chứng đã lưu lấy từ request thực trên Swagger UI. Sau khi đã chấm, chủ bài có thể dừng/xoá tài nguyên cloud theo RULES.md.
+
+## Ghi chú vận hành
+
+Agent lắng nghe cổng `10000` do Render cấp. `/ready` trả 200 với Redis nội bộ. Deploy từ URL repo public, không cấp thêm quyền GitHub cho Render. Free instance có thể ngủ khi không có traffic; request đầu sau thời gian idle có thể chậm. Muốn cập nhật source, push GitHub rồi dùng Manual Deploy/Manual Sync trên Render nếu không có auto-deploy từ Git provider.

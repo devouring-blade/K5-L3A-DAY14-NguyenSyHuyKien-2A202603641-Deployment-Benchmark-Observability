@@ -65,7 +65,7 @@ Lần đo đầu khi Docker còn build/tải image được giữ ở `reports/i
 
 Đã chép cùng KB sửa sang develop và production. v2 tăng token do prompt có retrieval nhưng cải thiện cost/câu đúng. KB bổ sung dài hơn làm chi phí v2 sau sửa tăng; latency giữa các lần còn chịu ảnh hưởng tải máy, không quy toàn bộ chênh lệch cho KB.
 
-Quality gate cuối yêu cầu accuracy 1.0 và không regression so với eval_v2.json. Thử v1 với baseline v2 trả exit code 1; xem `reports/eval_v1_regression.json`. Workflow `.github/workflows/quality-gate.yml` chạy gate trên push/PR và upload report. Cần chọn job này làm required status check trong branch protection để GitHub thực sự chặn merge. Workflow đã tạo, chưa xác nhận chạy trên GitHub.
+Quality gate cuối yêu cầu accuracy 1.0 và không regression so với eval_v2.json. Thử v1 với baseline v2 trả exit code 1; xem `reports/eval_v1_regression.json`. Workflow `.github/workflows/quality-gate.yml` chạy gate trên push/PR và upload report. Cần chọn job này làm required status check trong branch protection để GitHub thực sự chặn merge. [Workflow trên GitHub](https://github.com/devouring-blade/K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability/actions/runs/45734420746) đã completed/success cho commit 49e0fff; metadata gốc ở `reports/github_actions.json`.
 
 ## 4. Observability
 
@@ -140,4 +140,4 @@ RPS đổi từ 48.658 lên 62.057; p95 đổi từ 2200ms sang 910ms. Scale c�
 2. Chất lượng, tốc độ và chi phí là ba trục khác nhau; cost/câu đúng hữu ích hơn cost/câu.
 3. Correlate metric → trace → log giúp phân biệt lỗi upstream, queueing và lỗi tại proxy.
 
-Khi triển khai thật: thêm metric ở Nginx, hàng đợi/timeouts, CPU throttling, Redis availability, budget remaining và canary chất lượng. Bài dùng mock nên không chứng minh chi phí hay chất lượng của LLM thật. Cloud chưa deploy vì chưa có tài khoản; trạng thái và lệnh hoàn tất ở `DEPLOYMENT.md`.
+Khi triển khai thật: thêm metric ở Nginx, hàng đợi/timeouts, CPU throttling, Redis availability, budget remaining và canary chất lượng. Bài dùng mock nên không chứng minh chi phí hay chất lượng của LLM thật. Agent Part 6 đã deploy Render Free tại **https://day14-agent-twkr.onrender.com**; kiểm tra public đạt **200/200/401/200**. Bằng chứng cloud trong `DEPLOYMENT.md`, `reports/public_deployment.json` và ba ảnh dashboard/running/test. Key chỉ dùng tạm trong bộ nhớ, không lưu vào repo.

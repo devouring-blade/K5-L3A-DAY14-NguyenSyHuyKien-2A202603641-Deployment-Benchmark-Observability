@@ -71,7 +71,7 @@ Nginx là cổng vào; agent, Redis và Qdrant liên lạc bằng DNS service tr
 
 ### Exercise 3.1/3.2 — Triển khai agent Part 6
 
-Chưa có URL public: chủ bài xác nhận chưa có tài khoản cloud. Đã chuẩn bị `06-lab-complete/railway.toml`, `render.yaml`, Dockerfile và hướng dẫn trong `DEPLOYMENT.md`. Không ghi URL hoặc ảnh cloud giả.
+Đã deploy agent Part 6 lên Render Free: **https://day14-agent-twkr.onrender.com**. Agent có Redis/Key Value nội bộ; kiểm tra public `/health` 200, `/ready` 200, `/ask` thiếu key 401 và đúng key 200. Kết quả thật ở `reports/public_deployment.json`; ảnh ở `screenshots/dashboard.png`, `running.png`, `test.png`. Chi tiết trong `DEPLOYMENT.md`.
 
 | Railway TOML | Render YAML |
 |---|---|
@@ -129,11 +129,11 @@ Mỗi process có RAM riêng nên history/rate limit trong dict sẽ khác nhau 
 
 ## Part 6 — Final Project
 
-Chạy script chấm nguyên bản trong Linux container (Python 3.11, có Docker CLI và socket) để kiểm SIGTERM POSIX, không sửa script chấm. Kết quả đầy đủ: **PASS 12/12, 43/43 checks passed**; output gốc ở `reports/production_ready.txt`. Tiêu chí “Public URL ready” của script kiểm cấu hình deploy, không chứng minh đã có URL public; phần cloud vẫn ghi đúng trạng thái trong `DEPLOYMENT.md`.
+Chạy script chấm nguyên bản trong Linux container (Python 3.11, có Docker CLI và socket) để kiểm SIGTERM POSIX, không sửa script chấm. Kết quả đầy đủ: **PASS 12/12, 43/43 checks passed**; output gốc ở `reports/production_ready.txt`. Tiêu chí “Public URL ready” kiểm cấu hình deploy; bằng chứng cloud bổ sung ở `DEPLOYMENT.md` và `reports/public_deployment.json` đã xác nhận đủ 200/200/401/200.
 
 ## AI log
 
-Ngày 25–26/11/2026, yêu cầu Codex đọc và thực hiện toàn bộ lab. AI đọc README/RULES/CHECKPOINTS/SUBMISSION/RUBRIC, triển khai Part 6, sửa cấu hình Docker bị lỗi tìm package, viết câu trả lời và các script thu thập bằng chứng; bổ sung JWT/HPA vào knowledge base theo Exercise 7.3. AI chạy script chấm nguyên bản, HTTP tests, eval/load test và các kiểm tra được lưu trong reports. Không sửa `check_production_ready.py` hoặc `golden_dataset.jsonl`, không tạo số đo/ảnh giả. Chủ bài chưa tự sửa hoặc tự kiểm tra trong phiên này; cần đọc, chạy lại và giải thích được code/số liệu khi Lab Coach hỏi. Phần tài khoản cloud do chủ bài thực hiện.
+Ngày 25–26/11/2026, yêu cầu Codex đọc và thực hiện toàn bộ lab. AI đọc README/RULES/CHECKPOINTS/SUBMISSION/RUBRIC, triển khai Part 6, sửa cấu hình Docker bị lỗi tìm package, viết câu trả lời và script thu thập bằng chứng; bổ sung JWT/HPA vào knowledge base. AI chạy script chấm nguyên bản, HTTP tests, eval/load test và các kiểm tra được lưu trong reports. Không sửa script chấm hoặc golden dataset, không tạo số đo/ảnh giả. Chủ bài cần đọc, chạy lại và giải thích được code/số liệu khi Lab Coach hỏi. Chủ bài tự đăng nhập Render; sau đó AI commit/push, deploy Blueprint Free và kiểm tra API public. Credential chỉ dùng tạm trong bộ nhớ, không lưu vào bài nộp.
 
 ## Bằng chứng thực nghiệm tự động
 

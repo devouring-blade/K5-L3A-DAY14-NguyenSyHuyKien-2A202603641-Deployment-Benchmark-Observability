@@ -53,7 +53,16 @@ def main():
     assert version["eval_exit_code"] == 1
     evaluation = json.loads((REPORTS / "eval_production_v1.json").read_text(encoding="utf-8"))
     assert evaluation["total"] == 23 and not evaluation["quality_gate"]["passed"]
-    print("Local deliverables verified. Cloud URL/screenshots and LMS submission remain manual account steps.")
+    cloud_path = REPORTS / "public_deployment.json"
+    if cloud_path.exists():
+        cloud = json.loads(cloud_path.read_text(encoding="utf-8"))
+        assert [r["status"] for r in cloud["results"]] == [200, 200, 401, 200]
+        for name in ("dashboard.png", "running.png", "test.png"):
+            data = (ROOT / "screenshots" / name).read_bytes()
+            assert data.startswith(b"\x89PNG\r\n\x1a\n") and len(data) > 10000
+        print("Local and cloud deliverables verified: 12/12, eval 23/23, seven screenshots, public 200/200/401/200. LMS link submission remains.")
+    else:
+        print("Local deliverables verified. Cloud URL/screenshots and LMS submission remain manual account steps.")
 
 
 if __name__ == "__main__":

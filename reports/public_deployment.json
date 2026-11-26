@@ -1,0 +1,50 @@
+{
+  "base_url": "https://day14-agent-twkr.onrender.com",
+  "checked_at_utc": "2026-11-26T01:22:32.562Z",
+  "method": "Live requests executed through Swagger UI; key held in browser memory only",
+  "results": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "authenticated": false,
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "environment": "production"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ready",
+      "authenticated": false,
+      "status": 200,
+      "body": {
+        "ready": true
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "authenticated": false,
+      "status": 401,
+      "body": {
+        "detail": "Missing or invalid API key"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ask",
+      "authenticated": true,
+      "status": 200,
+      "body": {
+        "question": "Hello",
+        "answer": "Agent đang hoạt động tốt! (mock response) Hỏi thêm câu hỏi đi nhé.",
+        "usage": {
+          "input_tokens": 1,
+          "output_tokens": 16,
+          "cost_usd": 0.00000975
+        }
+      }
+    }
+  ]
+}

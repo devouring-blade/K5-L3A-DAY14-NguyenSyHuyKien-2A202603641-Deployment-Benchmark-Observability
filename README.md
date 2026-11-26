@@ -1,6 +1,6 @@
 # Day 14 — Deployment, Benchmark & Observability
 
-> **Bản bài làm:** [MISSION_ANSWERS.md](MISSION_ANSWERS.md), [BENCHMARK_REPORT.md](BENCHMARK_REPORT.md), [DEPLOYMENT.md](DEPLOYMENT.md). Part 6 đã chạy script chấm nguyên bản: **PASS 12/12 (43/43 checks)**; eval sau sửa KB: **23/23, không regression**. Cloud chưa deploy, xem trạng thái trong DEPLOYMENT.md. Chạy agent local trên PowerShell: `./scripts/start_local.ps1`.
+> **Bản bài làm:** [MISSION_ANSWERS.md](MISSION_ANSWERS.md), [BENCHMARK_REPORT.md](BENCHMARK_REPORT.md), [DEPLOYMENT.md](DEPLOYMENT.md). Part 6: **PASS 12/12 (43/43 checks)**; eval: **23/23, không regression**. Cloud đã Live: **[day14-agent-twkr.onrender.com/health](https://day14-agent-twkr.onrender.com/health)**; kiểm tra public **200/200/401/200**. Chạy local trên PowerShell: `./scripts/start_local.ps1`.
 
 > Đưa agent lên cloud, đo xem nó nhanh và đúng tới đâu, rồi giám sát nó khi chạy thật.
 
