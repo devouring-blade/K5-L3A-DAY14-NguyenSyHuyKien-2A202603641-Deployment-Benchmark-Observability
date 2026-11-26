@@ -1,0 +1,35 @@
+Prometheus
+
+Query
+Alerts
+Status
+Query
+Alerts
+Status
+
+agent-cost
+
+/etc/prometheus/alert_rules.yml
+
+FIRING (1)
+
+LLMCostBurnRateHigh
+
+FIRING (1)
+
+agent-slo
+
+/etc/prometheus/alert_rules.yml
+
+FIRING (2)
+INACTIVE (1)
+
+AgentHighErrorRate
+
+FIRING (1)
+
+AgentHighLatencyP95
+
+FIRING (1)
+
+AgentInstanceDown

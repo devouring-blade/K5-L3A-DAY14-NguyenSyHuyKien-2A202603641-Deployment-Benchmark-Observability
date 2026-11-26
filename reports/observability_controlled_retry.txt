@@ -1,0 +1,5 @@
+AB AgentHighErrorRate firing at 86.43 s
+AB AgentHighLatencyP95 firing at 146.7 s
+C LLMCostBurnRateHigh firing at 153.87 s
+D AgentInstanceDown firing at 40.68 s
+Observability experiments complete; stack left running for screenshot verification

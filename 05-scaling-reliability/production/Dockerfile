@@ -6,8 +6,7 @@ FROM python:3.11-slim AS builder
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y gcc libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
+# All pinned dependencies have wheels; keep build independent of apt mirrors.
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt

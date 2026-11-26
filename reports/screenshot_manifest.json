@@ -1,0 +1,10 @@
+{
+  "jaeger-slow-trace.png": {
+    "trace_id": "ff180657e3a7cea74d451e1de0d37688",
+    "source": "slow_trace_AB.json"
+  },
+  "jaeger-error-trace.png": {
+    "trace_id": "144867f013eaec48e4ef4db1fd76a31d",
+    "source": "error_trace_AB.json"
+  }
+}

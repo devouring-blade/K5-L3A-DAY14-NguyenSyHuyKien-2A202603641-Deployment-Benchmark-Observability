@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "eval_exit_code": 1,
+  "alerts": {
+    "status": "success",
+    "data": {
+      "alerts": [
+        {
+          "labels": {
+            "alertname": "LLMCostBurnRateHigh",
+            "severity": "warning"
+          },
+          "annotations": {
+            "description": "Tốc độ chi tiêu hiện tại: $29.75/giờ",
+            "summary": "Chi phí LLM đang vượt $2/giờ"
+          },
+          "state": "firing",
+          "activeAt": "2026-11-26T00:49:57.571501534Z",
+          "value": "2.975032548582501e+01"
+        }
+      ]
+    }
+  }
+}

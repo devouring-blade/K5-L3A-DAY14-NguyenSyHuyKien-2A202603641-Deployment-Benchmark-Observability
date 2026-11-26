@@ -1,5 +1,21 @@
 # Part 6 — Final Project: Production-ready AI Agent
 
+## Bản bài làm đã triển khai
+
+Đã hoàn thiện source và chạy nguyên bản script chấm trong Linux: **PASS 12/12, 43/43 checks passed**. Xem [output thật](../reports/production_ready.txt), [câu trả lời](../MISSION_ANSWERS.md), [báo cáo benchmark](../BENCHMARK_REPORT.md) và [trạng thái cloud](../DEPLOYMENT.md). Phần dưới giữ hướng dẫn gốc của đề; các TODO trong source Part 6 đã được thay bằng implementation.
+
+Khởi động trên PowerShell từ gốc repo: `./scripts/start_local.ps1`. Script tạo `.env` với key ngẫu nhiên nếu chưa có rồi chạy agent + Redis; key không được in và `.env` không được commit. Dừng: `docker compose -p k5-day14-final -f 06-lab-complete/docker-compose.yml down`. Chỉ thêm `-v` khi muốn xoá state Redis của lab.
+
+Chạy chấm POSIX bằng Docker từ PowerShell ở gốc repo:
+
+```powershell
+docker build -t day14-agent:final 06-lab-complete
+docker build -f scripts/Dockerfile.runner -t day14-runner .
+docker run --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -v "${PWD}:/workspace" -w /workspace/06-lab-complete day14-runner python check_production_ready.py
+```
+
+Runner cần Docker socket để script chấm build/chạy container. Có thể dùng WSL2 theo README gốc thay cho runner. Mã runtime không yêu cầu Docker socket.
+
 Bạn tự xây một AI agent đủ chuẩn production từ **bản khung** trong thư mục này, kết hợp mọi thứ đã học ở Part 1–5.
 Mọi file đều đã có sẵn, phần việc của bạn nằm ở các chỗ ghi `TODO`. Bản khung chạy được nhưng **chưa đạt tiêu chí nào**.
 

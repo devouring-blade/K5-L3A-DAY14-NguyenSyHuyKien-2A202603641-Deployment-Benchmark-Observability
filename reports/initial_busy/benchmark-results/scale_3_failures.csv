@@ -1,0 +1,8 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/ask,"ConnectionResetError(104, 'Connection reset by peer')",1,2026-11-25T13:38:55Z,2026-11-25T13:38:55Z
+POST,/ask,HTTPError('504 Server Error: Gateway Time-out for url: /ask'),160,2026-11-25T13:37:27Z,2026-11-25T13:41:55Z
+GET,/health,HTTPError('504 Server Error: Gateway Time-out for url: /health'),1,2026-11-25T13:41:55Z,2026-11-25T13:41:55Z
+GET,/health,RemoteDisconnected('Remote end closed connection without response'),4,2026-11-25T13:38:55Z,2026-11-25T13:40:12Z
+GET,/health,HTTPError('502 Server Error: Bad Gateway for url: /health'),53,2026-11-25T13:37:12Z,2026-11-25T13:41:55Z
+POST,/ask,HTTPError('502 Server Error: Bad Gateway for url: /ask'),443,2026-11-25T13:37:12Z,2026-11-25T13:41:55Z
+POST,/ask,RemoteDisconnected('Remote end closed connection without response'),28,2026-11-25T13:38:54Z,2026-11-25T13:40:18Z

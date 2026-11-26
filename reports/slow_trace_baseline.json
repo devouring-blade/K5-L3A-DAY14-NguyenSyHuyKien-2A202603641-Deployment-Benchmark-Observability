@@ -1,0 +1,129 @@
+{
+  "traceID": "23fee969248b24673140e4da53468180",
+  "spans": [
+    {
+      "spanID": "c135abe48af99b5c",
+      "operationName": "agent.retrieve_context",
+      "startTime": 1795653823773080.2,
+      "duration": 22192.327,
+      "tags": [
+        {
+          "key": "retrieval.documents",
+          "value": "1"
+        }
+      ],
+      "events": []
+    },
+    {
+      "spanID": "fda05ae2c352f2bb",
+      "operationName": "chat mock-llm-small",
+      "startTime": 1795653823795458.5,
+      "duration": 1782007.132,
+      "tags": [
+        {
+          "key": "gen_ai.operation.name",
+          "value": "chat"
+        },
+        {
+          "key": "gen_ai.provider.name",
+          "value": "mock"
+        },
+        {
+          "key": "gen_ai.request.model",
+          "value": "mock-llm-small"
+        },
+        {
+          "key": "gen_ai.usage.input_tokens",
+          "value": "83"
+        },
+        {
+          "key": "gen_ai.usage.output_tokens",
+          "value": "44"
+        },
+        {
+          "key": "llm.cost_usd",
+          "value": 3.8849999999999996e-05
+        }
+      ],
+      "events": []
+    },
+    {
+      "spanID": "08f9d69e74b3eade",
+      "operationName": "agent.run",
+      "startTime": 1795653823773018.2,
+      "duration": 1804530.528,
+      "tags": [
+        {
+          "key": "agent.question.length",
+          "value": "49"
+        },
+        {
+          "key": "agent.version",
+          "value": "v2"
+        }
+      ],
+      "events": []
+    },
+    {
+      "spanID": "04ff8f213ffa7b79",
+      "operationName": "POST /ask",
+      "startTime": 1795653823580149.2,
+      "duration": 2007559.489,
+      "tags": [
+        {
+          "key": "http.flavor",
+          "value": "1.1"
+        },
+        {
+          "key": "http.host",
+          "value": "172.21.0.2:8000"
+        },
+        {
+          "key": "http.method",
+          "value": "POST"
+        },
+        {
+          "key": "http.route",
+          "value": "/ask"
+        },
+        {
+          "key": "http.scheme",
+          "value": "http"
+        },
+        {
+          "key": "http.server_name",
+          "value": "nginx"
+        },
+        {
+          "key": "http.status_code",
+          "value": "200"
+        },
+        {
+          "key": "http.target",
+          "value": "/ask"
+        },
+        {
+          "key": "http.url",
+          "value": "http://nginx/ask"
+        },
+        {
+          "key": "http.user_agent",
+          "value": "python-requests/2.34.2"
+        },
+        {
+          "key": "net.host.port",
+          "value": "8000"
+        },
+        {
+          "key": "net.peer.ip",
+          "value": "172.21.0.8"
+        },
+        {
+          "key": "net.peer.port",
+          "value": "32828"
+        }
+      ],
+      "events": []
+    }
+  ]
+}

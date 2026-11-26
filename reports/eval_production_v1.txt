@@ -1,0 +1,59 @@
+
+🧪 Eval agent tại http://127.0.0.1:8080
+
+  ✅ basic-01         score=1.00    251.9ms
+  ❌ docker-01        score=0.33   1674.4ms
+  ❌ docker-02        score=0.00    174.8ms
+  ❌ probe-01         score=0.00    181.1ms
+  ❌ probe-02         score=0.00    191.7ms
+  ❌ reliability-01   score=0.00    155.1ms
+  ❌ config-01        score=0.00    197.5ms
+  ❌ security-01      score=0.00    161.1ms
+  ❌ security-02      score=0.00    184.3ms
+  ❌ scaling-01       score=0.00    161.4ms
+  ❌ scaling-02       score=0.00    182.7ms
+  ❌ scaling-03       score=0.00    196.2ms
+  ❌ bench-01         score=0.00    178.6ms
+  ❌ bench-02         score=0.00    150.5ms
+  ❌ obs-01           score=0.00    179.6ms
+  ❌ obs-02           score=0.00    155.1ms
+  ❌ obs-03           score=0.00    177.5ms
+  ❌ obs-04           score=0.00    167.4ms
+  ❌ obs-05           score=0.00    194.3ms
+  ❌ obs-06           score=0.00    147.1ms
+  ❌ slo-01           score=0.00    151.0ms
+  ❌ cost-01          score=0.00    173.9ms
+  ❌ cloud-01         score=0.00    145.6ms
+
+══════════════════════════════════════════════════════════
+  EVAL REPORT — agent v1
+══════════════════════════════════════════════════════════
+  Accuracy      : 4.3%  (1/23)
+  Errors        : 0
+  Latency (ms)  : p50=177.5  p95=246.5
+  Avg tokens    : 56.8
+  Total cost    : $0.0004   (cost / câu đúng: $0.00040035)
+  Theo category :
+    - benchmark      0/3  (0%)
+    - cost           0/1  (0%)
+    - deployment     1/3  (33%)
+    - docker         0/2  (0%)
+    - observability  0/6  (0%)
+    - reliability    0/3  (0%)
+    - scaling        0/3  (0%)
+    - security       0/2  (0%)
+
+  📊 So sánh với baseline (agent v2)
+  Chỉ số                    Baseline    Hiện tại        Thay đổi
+  Accuracy                    100.0%        4.3%    -95.7 điểm %
+  Latency p95 (ms)             258.2       246.5           -11.7
+  Avg tokens / câu             118.4        56.8           -61.6
+  Tổng cost (USD)           0.000832    0.000400       -0.000432
+
+  ✨ Câu được cải thiện : 0
+  ⚠️  Câu bị regression : 22 ['docker-01', 'docker-02', 'probe-01', 'probe-02', 'reliability-01', 'config-01', 'security-01', 'security-02', 'scaling-01', 'scaling-02', 'scaling-03', 'bench-01', 'bench-02', 'obs-01', 'obs-02', 'obs-03', 'obs-04', 'obs-05', 'obs-06', 'slo-01', 'cost-01', 'cloud-01']
+──────────────────────────────────────────────────────────
+  Quality gate (accuracy ≥ 80%, không regression): ❌ FAIL
+══════════════════════════════════════════════════════════
+
+💾 Đã lưu report: /workspace/reports/eval_production_v1.json

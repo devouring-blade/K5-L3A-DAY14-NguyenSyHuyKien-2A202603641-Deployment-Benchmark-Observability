@@ -1,0 +1,379 @@
+time="2026-11-25T20:17:23+07:00" level=warning msg="E:\\Work_Space\\K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability\\05-scaling-reliability\\production\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image nginx:alpine Pulling 
+ 881fc932939e Pulling fs layer 0B
+ 272cbe758287 Pulling fs layer 0B
+ fbbe454312b9 Pulling fs layer 0B
+ e9820988621b Pulling fs layer 0B
+ 85b05bfd25bc Pulling fs layer 0B
+ 96001c9779a1 Pulling fs layer 0B
+ 3623869d224d Pulling fs layer 0B
+ e5f8fe67c1e1 Pulling fs layer 0B
+ 881fc932939e Already exists 0B
+ fbbe454312b9 Downloading 629B
+ fbbe454312b9 Download complete 0B
+ 3623869d224d Download complete 0B
+ e9820988621b Download complete 0B
+ 85b05bfd25bc Downloading 404B
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 85b05bfd25bc Download complete 0B
+ 96001c9779a1 Download complete 0B
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 1.049MB
+ 272cbe758287 Downloading 2.097MB
+ 272cbe758287 Downloading 2.097MB
+ 272cbe758287 Downloading 2.097MB
+ 272cbe758287 Downloading 2.097MB
+ 272cbe758287 Downloading 3.146MB
+ 272cbe758287 Downloading 3.146MB
+ 3872ed807ade Download complete 0B
+ 272cbe758287 Downloading 3.146MB
+ e5f8fe67c1e1 Downloading 1.049MB
+ d970fb760bb2 Downloading 22.55kB
+ e5f8fe67c1e1 Downloading 1.311MB
+ d970fb760bb2 Download complete 0B
+ 272cbe758287 Downloading 4.194MB
+ e5f8fe67c1e1 Downloading 2.097MB
+ 272cbe758287 Download complete 0B
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 2.097MB
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 2.097MB
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 3.146MB
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 4.194MB
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 4.194MB
+ 272cbe758287 Extracting 1B
+ e5f8fe67c1e1 Downloading 4.194MB
+ 272cbe758287 Extracting 2B
+ e5f8fe67c1e1 Downloading 4.194MB
+ 272cbe758287 Extracting 2B
+ e5f8fe67c1e1 Downloading 4.194MB
+ 272cbe758287 Extracting 2B
+ e5f8fe67c1e1 Downloading 5.243MB
+ 272cbe758287 Extracting 2B
+ e5f8fe67c1e1 Downloading 5.243MB
+ 272cbe758287 Extracting 3B
+ e5f8fe67c1e1 Downloading 6.291MB
+ 272cbe758287 Extracting 3B
+ e5f8fe67c1e1 Downloading 6.291MB
+ 272cbe758287 Extracting 3B
+ e5f8fe67c1e1 Downloading 7.34MB
+ 272cbe758287 Extracting 3B
+ e5f8fe67c1e1 Downloading 7.34MB
+ 272cbe758287 Extracting 3B
+ e5f8fe67c1e1 Downloading 8.389MB
+ 272cbe758287 Extracting 4B
+ e5f8fe67c1e1 Downloading 8.389MB
+ 272cbe758287 Extracting 4B
+ e5f8fe67c1e1 Downloading 9.437MB
+ 272cbe758287 Extracting 4B
+ e5f8fe67c1e1 Downloading 9.437MB
+ 272cbe758287 Extracting 4B
+ e5f8fe67c1e1 Downloading 10.49MB
+ 272cbe758287 Extracting 5B
+ e5f8fe67c1e1 Downloading 11.53MB
+ 272cbe758287 Extracting 5B
+ e5f8fe67c1e1 Downloading 12.58MB
+ 272cbe758287 Pull complete 0B
+ e5f8fe67c1e1 Downloading 12.58MB
+ e5f8fe67c1e1 Downloading 12.58MB
+ fbbe454312b9 Extracting 1B
+ e5f8fe67c1e1 Downloading 12.58MB
+ fbbe454312b9 Pull complete 0B
+ e5f8fe67c1e1 Downloading 13.63MB
+ 96001c9779a1 Extracting 1B
+ e5f8fe67c1e1 Downloading 13.63MB
+ 96001c9779a1 Pull complete 0B
+ e5f8fe67c1e1 Downloading 13.63MB
+ e5f8fe67c1e1 Downloading 13.63MB
+ e5f8fe67c1e1 Downloading 13.63MB
+ 85b05bfd25bc Extracting 1B
+ e5f8fe67c1e1 Downloading 13.63MB
+ 85b05bfd25bc Pull complete 0B
+ e5f8fe67c1e1 Downloading 13.63MB
+ e9820988621b Extracting 1B
+ e5f8fe67c1e1 Downloading 14.68MB
+ e5f8fe67c1e1 Downloading 14.68MB
+ 3623869d224d Extracting 1B
+ e9820988621b Pull complete 0B
+ e5f8fe67c1e1 Downloading 14.68MB
+ 3623869d224d Pull complete 0B
+ e5f8fe67c1e1 Downloading 14.68MB
+ e5f8fe67c1e1 Downloading 15.73MB
+ e5f8fe67c1e1 Downloading 15.73MB
+ e5f8fe67c1e1 Downloading 16.78MB
+ e5f8fe67c1e1 Downloading 16.78MB
+ e5f8fe67c1e1 Downloading 17.83MB
+ e5f8fe67c1e1 Downloading 17.83MB
+ e5f8fe67c1e1 Downloading 17.83MB
+ e5f8fe67c1e1 Downloading 17.83MB
+ e5f8fe67c1e1 Downloading 18.87MB
+ e5f8fe67c1e1 Downloading 18.87MB
+ e5f8fe67c1e1 Downloading 18.87MB
+ e5f8fe67c1e1 Downloading 19.92MB
+ e5f8fe67c1e1 Downloading 19.92MB
+ e5f8fe67c1e1 Download complete 0B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 1B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 2B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 3B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 4B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 5B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 6B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Extracting 7B
+ e5f8fe67c1e1 Pull complete 0B
+ Image nginx:alpine Pulled 
+ Image k5-day14-scaling-agent Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 721B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile:
+#2 transferring dockerfile: 1.21kB 0.0s done
+#2 DONE 0.3s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 DONE 0.7s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [builder 2/5] WORKDIR /app
+#5 CACHED
+
+#6 [builder 1/4] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#6 resolve docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c 0.4s done
+#6 CACHED
+
+#7 [runtime 2/7] RUN groupadd -r agent && useradd -r -g agent -d /app agent
+#7 DONE 9.5s
+
+#8 [runtime 3/7] WORKDIR /app
+#8 DONE 1.9s
+
+#9 [internal] load build context
+#9 transferring context: 9.41kB 0.1s done
+#9 DONE 0.2s
+
+#10 [builder 3/4] COPY requirements.txt .
+#10 DONE 0.7s
+
+#11 [builder 4/4] RUN pip install --no-cache-dir --user -r requirements.txt
+#11 22.94 Collecting fastapi==0.115.0 (from -r requirements.txt (line 1))
+#11 23.40   Downloading fastapi-0.115.0-py3-none-any.whl.metadata (27 kB)
+#11 23.79 Collecting uvicorn==0.30.0 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 23.89   Downloading uvicorn-0.30.0-py3-none-any.whl.metadata (6.3 kB)
+#11 24.25 Collecting redis>=5.0.0 (from -r requirements.txt (line 3))
+#11 24.31   Downloading redis-8.2.0-py3-none-any.whl.metadata (18 kB)
+#11 24.68 Collecting starlette<0.39.0,>=0.37.2 (from fastapi==0.115.0->-r requirements.txt (line 1))
+#11 24.76   Downloading starlette-0.38.6-py3-none-any.whl.metadata (6.0 kB)
+#11 26.88 Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.0->-r requirements.txt (line 1))
+#11 26.97   Downloading pydantic-2.14.4-py3-none-any.whl.metadata (143 kB)
+#11 27.15      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.0/144.0 kB 1.0 MB/s eta 0:00:00
+#11 27.47 Collecting typing-extensions>=4.8.0 (from fastapi==0.115.0->-r requirements.txt (line 1))
+#11 27.56   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#11 27.89 Collecting click>=7.0 (from uvicorn==0.30.0->uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 28.00   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+#11 28.25 Collecting h11>=0.8 (from uvicorn==0.30.0->uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 28.34   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#11 29.17 Collecting httptools>=0.5.0 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 29.27   Downloading httptools-0.9.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+#11 29.54 Collecting python-dotenv>=0.13 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 29.63   Downloading python_dotenv-1.2.4-py3-none-any.whl.metadata (29 kB)
+#11 30.21 Collecting pyyaml>=5.1 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 30.30   Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.3 kB)
+#11 31.00 Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 31.13   Downloading uvloop-0.23.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.1 kB)
+#11 31.87 Collecting watchfiles>=0.13 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 31.96   Downloading watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+#11 36.33 Collecting websockets>=10.4 (from uvicorn[standard]==0.30.0->-r requirements.txt (line 2))
+#11 36.67   Downloading websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
+#11 37.01 Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.0->-r requirements.txt (line 1))
+#11 37.14   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#11 60.87 Collecting pydantic-core==2.50.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.0->-r requirements.txt (line 1))
+#11 61.28   Downloading pydantic_core-2.50.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.6 kB)
+#11 61.78 Collecting typing-inspection>=0.4.4 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.0->-r requirements.txt (line 1))
+#11 62.01   Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+#11 62.63 Collecting anyio<5,>=3.4.0 (from starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+#11 63.00   Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+#11 66.78 Collecting idna>=2.8 (from anyio<5,>=3.4.0->starlette<0.39.0,>=0.37.2->fastapi==0.115.0->-r requirements.txt (line 1))
+#11 67.18   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#11 67.67 Downloading fastapi-0.115.0-py3-none-any.whl (94 kB)
+#11 68.41    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.6/94.6 kB 153.0 kB/s eta 0:00:00
+#11 68.64 Downloading uvicorn-0.30.0-py3-none-any.whl (62 kB)
+#11 68.73    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.4/62.4 kB 23.8 MB/s eta 0:00:00
+#11 68.91 Downloading redis-8.2.0-py3-none-any.whl (732 kB)
+#11 69.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 732.9/732.9 kB 1.1 MB/s eta 0:00:00
+#11 69.84 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+#11 69.96    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.2/126.2 kB 1.3 MB/s eta 0:00:00
+#11 70.10 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#11 70.21 Downloading httptools-0.9.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (499 kB)
+#11 71.63    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 499.1/499.1 kB 373.9 kB/s eta 0:00:00
+#11 71.72 Downloading pydantic-2.14.4-py3-none-any.whl (494 kB)
+#11 75.46    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 494.9/494.9 kB 134.9 kB/s eta 0:00:00
+#11 75.61 Downloading pydantic_core-2.50.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.3 MB)
+#11 79.87    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 553.8 kB/s eta 0:00:00
+#11 79.96 Downloading python_dotenv-1.2.4-py3-none-any.whl (23 kB)
+#11 80.11 Downloading pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (828 kB)
+#11 81.07    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 828.0/828.0 kB 877.4 kB/s eta 0:00:00
+#11 81.18 Downloading starlette-0.38.6-py3-none-any.whl (71 kB)
+#11 81.26    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.5/71.5 kB 1.1 MB/s eta 0:00:00
+#11 81.43 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#11 81.51    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 769.7 kB/s eta 0:00:00
+#11 81.66 Downloading uvloop-0.23.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.0 MB)
+#11 87.31    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 722.6 kB/s eta 0:00:00
+#11 87.42 Downloading watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (458 kB)
+#11 88.07    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 458.4/458.4 kB 910.3 kB/s eta 0:00:00
+#11 88.18 Downloading websockets-17.4-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (226 kB)
+#11 88.55    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.0/226.0 kB 643.4 kB/s eta 0:00:00
+#11 88.65 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#11 88.77 Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+#11 88.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.5/134.5 kB 727.5 kB/s eta 0:00:00
+#11 89.08 Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+#11 89.17 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#11 89.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 1.1 MB/s eta 0:00:00
+#11 94.57 Installing collected packages: websockets, uvloop, typing-extensions, redis, pyyaml, python-dotenv, idna, httptools, h11, click, annotated-types, uvicorn, typing-inspection, pydantic-core, anyio, watchfiles, starlette, pydantic, fastapi
+#11 98.97   WARNING: The script websockets is installed in '/root/.local/bin' which is not on PATH.
+#11 98.97   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 112.5   WARNING: The script dotenv is installed in '/root/.local/bin' which is not on PATH.
+#11 112.5   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 113.0   WARNING: The script idna is installed in '/root/.local/bin' which is not on PATH.
+#11 113.0   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 117.0   WARNING: The script uvicorn is installed in '/root/.local/bin' which is not on PATH.
+#11 117.0   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 119.4   WARNING: The script watchfiles is installed in '/root/.local/bin' which is not on PATH.
+#11 119.4   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 124.6   WARNING: The script fastapi is installed in '/root/.local/bin' which is not on PATH.
+#11 124.6   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+#11 125.4 Successfully installed annotated-types-0.8.0 anyio-4.16.0 click-8.5.1 fastapi-0.115.0 h11-0.16.0 httptools-0.9.0 idna-3.20 pydantic-2.14.4 pydantic-core-2.50.5 python-dotenv-1.2.4 pyyaml-6.0.4 redis-8.2.0 starlette-0.38.6 typing-extensions-4.16.0 typing-inspection-0.4.5 uvicorn-0.30.0 uvloop-0.23.0 watchfiles-1.3.0 websockets-17.4
+#11 125.4 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#11 129.8 
+#11 129.8 [notice] A new release of pip is available: 24.0 -> 26.3
+#11 129.8 [notice] To update, run: pip install --upgrade pip
+#11 DONE 244.6s
+
+#12 [runtime 4/7] COPY --from=builder /root/.local /home/agent/.local
+#12 DONE 70.8s
+
+#13 [runtime 5/7] COPY app.py .
+#13 DONE 7.3s
+
+#14 [runtime 6/7] COPY utils/ ./utils/
+#14 DONE 1.2s
+
+#15 [runtime 7/7] RUN chown -R agent:agent /app
+#15 DONE 9.7s
+
+#16 exporting to image
+#16 exporting layers
+#16 exporting layers 33.4s done
+#16 exporting manifest sha256:1e3c3577f8c4f5d763f23061dda81db32310d54d6807fec9bb7fa877c2c54037
+#16 exporting manifest sha256:1e3c3577f8c4f5d763f23061dda81db32310d54d6807fec9bb7fa877c2c54037 0.4s done
+#16 exporting config sha256:fad11f794ef1abc24295e9ca646638df0fce88b30da8ccfcc78d669a54f782c2
+#16 exporting config sha256:fad11f794ef1abc24295e9ca646638df0fce88b30da8ccfcc78d669a54f782c2 0.2s done
+#16 exporting attestation manifest sha256:da805f9db9803ac9cca5866f48c8bdf57f078f30a4ff7dbbba893a1ae9eb994b
+#16 exporting attestation manifest sha256:da805f9db9803ac9cca5866f48c8bdf57f078f30a4ff7dbbba893a1ae9eb994b 0.2s done
+#16 exporting manifest list sha256:14fbadcb327420aa0d7750a34bef1829a71d849d617af52b06ac2e6087257042
+#16 exporting manifest list sha256:14fbadcb327420aa0d7750a34bef1829a71d849d617af52b06ac2e6087257042 0.2s done
+#16 naming to docker.io/library/k5-day14-scaling-agent:latest
+#16 naming to docker.io/library/k5-day14-scaling-agent:latest 0.2s done
+#16 unpacking to docker.io/library/k5-day14-scaling-agent:latest
+#16 unpacking to docker.io/library/k5-day14-scaling-agent:latest 20.6s done
+#16 DONE 56.0s
+
+#17 resolving provenance for metadata file
+#17 DONE 1.7s
+ Image k5-day14-scaling-agent Built 
+ Network k5-day14-scaling_agent_net Creating 
+ Network k5-day14-scaling_agent_net Creating 
+ Network k5-day14-scaling_agent_net Created 
+ Network k5-day14-scaling_agent_net Created 
+ Container k5-day14-scaling-redis-1 Creating 
+ Container k5-day14-scaling-redis-1 Created 
+ Container k5-day14-scaling-agent-3 Creating 
+ Container k5-day14-scaling-agent-1 Creating 
+ Container k5-day14-scaling-agent-2 Creating 
+ Container k5-day14-scaling-agent-2 Created 
+ Container k5-day14-scaling-agent-1 Created 
+ Container k5-day14-scaling-agent-3 Created 
+ Container k5-day14-scaling-nginx-1 Creating 
+ Container k5-day14-scaling-nginx-1 Created 
+ Container k5-day14-scaling-redis-1 Starting 
+ Container k5-day14-scaling-redis-1 Started 
+ Container k5-day14-scaling-redis-1 Waiting 
+ Container k5-day14-scaling-redis-1 Healthy 
+ Container k5-day14-scaling-agent-1 Starting 
+ Container k5-day14-scaling-agent-1 Started 
+ Container k5-day14-scaling-agent-2 Starting 
+ Container k5-day14-scaling-agent-2 Started 
+ Container k5-day14-scaling-agent-3 Starting 
+ Container k5-day14-scaling-agent-3 Started 
+ Container k5-day14-scaling-nginx-1 Starting 
+ Container k5-day14-scaling-nginx-1 Started 

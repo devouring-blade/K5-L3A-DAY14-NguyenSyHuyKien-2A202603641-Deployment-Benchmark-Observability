@@ -1,0 +1,697 @@
+{
+  "first_firing_seconds": 40.68,
+  "snapshots": [
+    {
+      "elapsed_s": 0.45,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.09/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.9094147907440387e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 5.46,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.09/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.9085159662386506e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 10.47,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.23/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.923088321671039e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 15.49,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.34/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.9335560525240393e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 20.51,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.50/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.9495604016674246e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 25.64,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $29.92/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "2.992407705614003e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 30.65,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $30.50/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.0498782800667097e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 35.67,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $31.04/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.103984279900044e+01"
+            },
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "pending",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 40.68,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $31.58/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.158394737457188e+01"
+            },
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 45.69,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $32.11/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.211294689163205e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 50.71,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $32.71/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.2708222544690145e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 55.73,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.33/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.332619838428017e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 60.74,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.31/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.331433178982814e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 65.8,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.23/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.3234672557447844e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 70.81,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.22/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.321706879267399e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 75.83,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.23/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.322806369267815e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 80.86,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.22/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.321668965637109e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 85.89,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.26/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.326146199782626e+01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "elapsed_s": 90.91,
+      "data": {
+        "status": "success",
+        "data": {
+          "alerts": [
+            {
+              "labels": {
+                "alertname": "AgentInstanceDown",
+                "instance": "172.21.0.2:8000",
+                "job": "agent",
+                "severity": "critical"
+              },
+              "annotations": {
+                "description": "Prometheus không gọi được /metrics của 172.21.0.2:8000 trong 30s",
+                "summary": "Instance agent 172.21.0.2:8000 không scrape được"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:54:02.401817116Z",
+              "value": "0e+00"
+            },
+            {
+              "labels": {
+                "alertname": "LLMCostBurnRateHigh",
+                "severity": "warning"
+              },
+              "annotations": {
+                "description": "Tốc độ chi tiêu hiện tại: $33.18/giờ",
+                "summary": "Chi phí LLM đang vượt $2/giờ"
+              },
+              "state": "firing",
+              "activeAt": "2026-11-26T00:49:57.571501534Z",
+              "value": "3.318459100520773e+01"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+time="2026-11-26T07:31:19+07:00" level=warning msg="E:\\Work_Space\\K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability\\02-docker\\production\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image qdrant/qdrant:v1.9.0 Pulling 
+ 4f4fb700ef54 Pulling fs layer 0B
+ d654115ed966 Pulling fs layer 0B
+ 13808c22b207 Pulling fs layer 0B
+ 7e438f701ce0 Pulling fs layer 0B
+ 0358ec7769a4 Pulling fs layer 0B
+ b620798c48a6 Pulling fs layer 0B
+ 3cdc66ab1ff8 Pulling fs layer 0B
+ 287bca830df3 Pulling fs layer 0B
+ 4f4fb700ef54 Pulling fs layer 0B
+ 4f4fb700ef54 Already exists 0B
+ 4f4fb700ef54 Pull complete 0B
+ d654115ed966 Download complete 0B
+ 13808c22b207 Downloading 1.049MB
+ 13808c22b207 Downloading 2.097MB
+ 13808c22b207 Downloading 2.097MB
+ 13808c22b207 Downloading 2.097MB
+ 13808c22b207 Downloading 3.146MB
+ b620798c48a6 Downloading 1.049MB
+ 13808c22b207 Downloading 3.146MB
+ 13808c22b207 Downloading 3.146MB
+ b620798c48a6 Downloading 1.049MB
+ 13808c22b207 Downloading 4.194MB
+ 0358ec7769a4 Downloading 913B
+ b620798c48a6 Downloading 1.049MB
+ b620798c48a6 Downloading 1.049MB
+ 13808c22b207 Downloading 4.194MB
+ 0358ec7769a4 Download complete 0B
+ 13808c22b207 Downloading 4.194MB
+ b620798c48a6 Downloading 1.049MB
+ 13808c22b207 Downloading 4.194MB
+ b620798c48a6 Downloading 2.097MB
+ b620798c48a6 Downloading 2.097MB
+ 3cdc66ab1ff8 Downloading 4.036kB
+ 13808c22b207 Downloading 4.194MB
+ 13808c22b207 Downloading 4.194MB
+ b620798c48a6 Downloading 2.097MB
+ 3cdc66ab1ff8 Download complete 0B
+ 13808c22b207 Downloading 4.194MB
+ b620798c48a6 Downloading 2.097MB
+ b620798c48a6 Downloading 2.097MB
+ 13808c22b207 Downloading 4.194MB
+ 13808c22b207 Downloading 5.243MB
+ b620798c48a6 Downloading 2.097MB
+ 13808c22b207 Downloading 5.243MB
+ b620798c48a6 Downloading 2.097MB
+ 13808c22b207 Downloading 5.243MB
+ b620798c48a6 Downloading 3.146MB
+ 13808c22b207 Downloading 5.243MB
+ b620798c48a6 Downloading 3.146MB
+ b620798c48a6 Downloading 3.146MB
+ 13808c22b207 Downloading 5.243MB
+ 13808c22b207 Downloading 5.243MB
+ b620798c48a6 Downloading 3.146MB
+ b620798c48a6 Downloading 3.146MB
+ 13808c22b207 Downloading 6.291MB
+ 13808c22b207 Downloading 6.291MB
+ 7e438f701ce0 Downloading 1.049MB
+ b620798c48a6 Downloading 3.146MB
+ 13808c22b207 Downloading 6.291MB
+ 7e438f701ce0 Downloading 1.049MB
+ b620798c48a6 Downloading 3.146MB
+ 7e438f701ce0 Downloading 1.049MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 6.291MB
+ 13808c22b207 Downloading 6.291MB
+ 7e438f701ce0 Downloading 1.049MB
+ b620798c48a6 Downloading 4.194MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 6.291MB
+ 7e438f701ce0 Downloading 1.049MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 4.194MB
+ 13808c22b207 Downloading 7.34MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 5.243MB
+ b620798c48a6 Downloading 5.243MB
+ 13808c22b207 Downloading 8.389MB
+ 7e438f701ce0 Downloading 2.097MB
+ 7e438f701ce0 Downloading 2.097MB
+ b620798c48a6 Downloading 5.243MB
+ 13808c22b207 Downloading 8.389MB
+ 7e438f701ce0 Downloading 3.146MB
+ b620798c48a6 Downloading 5.243MB
+ 13808c22b207 Downloading 8.389MB
+ 13808c22b207 Downloading 8.389MB
+ 7e438f701ce0 Downloading 3.146MB
+ b620798c48a6 Downloading 5.243MB
+ 13808c22b207 Downloading 8.389MB
+ 7e438f701ce0 Downloading 3.146MB
+ b620798c48a6 Downloading 5.243MB
+ 13808c22b207 Downloading 9.437MB
+ 7e438f701ce0 Download complete 0B
+ b620798c48a6 Downloading 6.291MB
+ b620798c48a6 Downloading 6.291MB
+ 13808c22b207 Downloading 9.437MB
+ 13808c22b207 Downloading 9.437MB
+ b620798c48a6 Downloading 6.291MB
+ b620798c48a6 Downloading 7.34MB
+ 13808c22b207 Downloading 9.437MB
+ b620798c48a6 Downloading 7.34MB
+ 13808c22b207 Downloading 10.49MB
+ b620798c48a6 Downloading 7.34MB
+ 13808c22b207 Downloading 10.49MB
+ 13808c22b207 Downloading 10.49MB
+ b620798c48a6 Downloading 8.389MB
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 8.389MB
+ 287bca830df3 Downloading 1.049MB
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 8.389MB
+ 287bca830df3 Downloading 1.049MB
+ b620798c48a6 Downloading 8.389MB
+ 287bca830df3 Downloading 1.049MB
+ 13808c22b207 Downloading 11.53MB
+ 287bca830df3 Downloading 1.049MB
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 9.437MB
+ b620798c48a6 Downloading 9.437MB
+ 287bca830df3 Downloading 1.933MB
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 9.437MB
+ 287bca830df3 Download complete 0B
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 9.437MB
+ 13808c22b207 Downloading 11.53MB
+ 13808c22b207 Downloading 11.53MB
+ b620798c48a6 Downloading 9.437MB
+ b620798c48a6 Downloading 9.437MB
+ 13808c22b207 Downloading 12.58MB
+ b620798c48a6 Downloading 9.437MB
+ 13808c22b207 Downloading 12.58MB
+ 13808c22b207 Downloading 12.58MB
+ b620798c48a6 Downloading 10.49MB
+ 13808c22b207 Downloading 12.58MB
+ b620798c48a6 Downloading 10.49MB
+ b620798c48a6 Downloading 10.49MB
+ 13808c22b207 Downloading 13.63MB
+ 13808c22b207 Downloading 13.63MB
+ b620798c48a6 Downloading 10.49MB
+ 13808c22b207 Downloading 13.63MB
+ b620798c48a6 Downloading 11.53MB
+ 13808c22b207 Downloading 14.68MB
+ b620798c48a6 Downloading 11.53MB
+ fa74bfc17da9 Downloading 1.59kB
+ 13808c22b207 Downloading 14.68MB
+ b620798c48a6 Downloading 11.53MB
+ fa74bfc17da9 Download complete 0B
+ b620798c48a6 Downloading 11.53MB
+ 13808c22b207 Downloading 14.68MB
+ 13808c22b207 Downloading 14.68MB
+ b620798c48a6 Downloading 12.58MB
+ b620798c48a6 Downloading 12.58MB
+ 13808c22b207 Downloading 15.73MB
+ 13808c22b207 Downloading 15.73MB
+ b620798c48a6 Downloading 13.63MB
+ 13808c22b207 Downloading 16.78MB
+ b620798c48a6 Downloading 13.63MB
+ 13808c22b207 Downloading 16.78MB
+ b620798c48a6 Downloading 13.63MB
+ b620798c48a6 Downloading 14.68MB
+ 13808c22b207 Downloading 16.78MB
+ b620798c48a6 Downloading 15.73MB
+ 13808c22b207 Downloading 17.83MB
+ b620798c48a6 Downloading 15.73MB
+ 13808c22b207 Downloading 17.83MB
+ 13808c22b207 Downloading 18.87MB
+ b620798c48a6 Downloading 16.78MB
+ b620798c48a6 Downloading 16.78MB
+ 13808c22b207 Downloading 18.87MB
+ 13808c22b207 Downloading 18.87MB
+ b620798c48a6 Downloading 17.83MB
+ 13808c22b207 Downloading 19.92MB
+ b620798c48a6 Downloading 17.83MB
+ 13808c22b207 Downloading 19.92MB
+ b620798c48a6 Downloading 18.87MB
+ 13808c22b207 Downloading 19.92MB
+ b620798c48a6 Downloading 19.92MB
+ 13808c22b207 Downloading 19.92MB
+ b620798c48a6 Downloading 19.92MB
+ 13808c22b207 Downloading 19.92MB
+ b620798c48a6 Downloading 19.92MB
+ b620798c48a6 Downloading 20.97MB
+ 13808c22b207 Downloading 19.92MB
+ 13808c22b207 Downloading 20.97MB
+ b620798c48a6 Downloading 20.97MB
+ 13808c22b207 Downloading 20.97MB
+ b620798c48a6 Downloading 22.02MB
+ 13808c22b207 Downloading 22.02MB
+ b620798c48a6 Downloading 23.07MB
+ 13808c22b207 Downloading 22.02MB
+ b620798c48a6 Downloading 23.07MB
+ 13808c22b207 Downloading 22.02MB
+ b620798c48a6 Downloading 24.14MB
+ 13808c22b207 Downloading 23.07MB
+ b620798c48a6 Download complete 0B
+ 13808c22b207 Downloading 23.07MB
+ 13808c22b207 Downloading 23.07MB
+ 13808c22b207 Downloading 24.12MB
+ 13808c22b207 Downloading 24.12MB
+ 13808c22b207 Downloading 24.12MB
+ 13808c22b207 Downloading 24.12MB
+ 13808c22b207 Downloading 25.17MB
+ 13808c22b207 Downloading 26.21MB
+ 13808c22b207 Downloading 26.21MB
+ 13808c22b207 Downloading 27.26MB
+ 13808c22b207 Downloading 28.31MB
+ 13808c22b207 Download complete 0B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 1B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 2B
+ 13808c22b207 Extracting 3B
+ 13808c22b207 Extracting 3B
+ 13808c22b207 Pull complete 0B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 1B
+ 7e438f701ce0 Extracting 2B
+ 7e438f701ce0 Pull complete 0B
+ d654115ed966 Extracting 1B
+ d654115ed966 Pull complete 0B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 1B
+ b620798c48a6 Extracting 2B
+ b620798c48a6 Extracting 2B
+ b620798c48a6 Extracting 2B
+ 3cdc66ab1ff8 Pull complete 0B
+ b620798c48a6 Pull complete 0B
+ 0358ec7769a4 Pull complete 0B
+ 287bca830df3 Extracting 1B
+ 287bca830df3 Extracting 1B
+ 287bca830df3 Extracting 1B
+ 287bca830df3 Extracting 1B
+ 287bca830df3 Extracting 1B
+ 287bca830df3 Pull complete 0B
+ Image qdrant/qdrant:v1.9.0 Pulled 
+ Image k5-day14-docker-agent Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 697B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile:
+#2 transferring dockerfile: 3.33kB 1.5s done
+#2 DONE 1.9s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 ...
+
+#4 [auth] library/python:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 DONE 2.7s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 486B 0.0s done
+#5 DONE 0.1s
+
+#6 [builder 1/4] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#6 resolve docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c 0.1s done
+#6 DONE 0.1s
+
+#7 [internal] load build context
+#7 transferring context: 237B 0.0s done
+#7 DONE 0.1s
+
+#8 [builder 3/4] COPY 02-docker/production/requirements.txt .
+#8 CACHED
+
+#9 [runtime 6/8] RUN mkdir -p /app/utils
+#9 CACHED
+
+#10 [runtime 7/8] COPY utils/mock_llm.py /app/utils/mock_llm.py
+#10 CACHED
+
+#11 [builder 4/4] RUN pip install --no-cache-dir --user -r requirements.txt
+#11 CACHED
+
+#12 [runtime 4/8] COPY --from=builder /root/.local /home/appuser/.local
+#12 CACHED
+
+#13 [runtime 5/8] COPY 02-docker/production/main.py .
+#13 CACHED
+
+#14 [runtime 3/8] WORKDIR /app
+#14 CACHED
+
+#15 [builder 2/4] WORKDIR /app
+#15 CACHED
+
+#16 [runtime 2/8] RUN groupadd -r appuser && useradd -r -g appuser appuser
+#16 CACHED
+
+#17 [runtime 8/8] RUN chown -R appuser:appuser /app
+#17 CACHED
+
+#18 exporting to image
+#18 exporting layers 0.0s done
+#18 exporting manifest sha256:98070a9701f8e16039c8a2f5d195bc5b8f350029ec37e64bb2aab08f803af928 0.2s done
+#18 exporting config sha256:70a87e6a9ad071833df773be9242cdf47ca7685a89b4d7eb4a373fe2bc1b6a07
+#18 exporting config sha256:70a87e6a9ad071833df773be9242cdf47ca7685a89b4d7eb4a373fe2bc1b6a07 0.0s done
+#18 exporting attestation manifest sha256:352ab36c2accc4f49a96845f070eb98e2600d040e49edd36aa6d1552310d30e9
+#18 exporting attestation manifest sha256:352ab36c2accc4f49a96845f070eb98e2600d040e49edd36aa6d1552310d30e9 0.1s done
+#18 exporting manifest list sha256:74a1866f298d1949912cd731fced6d8488d15c3cf5c3196edbef308ce2b9b525
+#18 exporting manifest list sha256:74a1866f298d1949912cd731fced6d8488d15c3cf5c3196edbef308ce2b9b525 0.0s done
+#18 naming to docker.io/library/k5-day14-docker-agent:latest done
+#18 unpacking to docker.io/library/k5-day14-docker-agent:latest
+#18 unpacking to docker.io/library/k5-day14-docker-agent:latest 1.7s done
+#18 DONE 2.3s
+
+#19 resolving provenance for metadata file
+#19 DONE 0.1s
+ Image k5-day14-docker-agent Built 
+ Volume k5-day14-docker_qdrant_data Creating 
+ Volume k5-day14-docker_redis_data Creating 
+ Network k5-day14-docker_internal Creating 
+ Volume k5-day14-docker_qdrant_data Creating 
+ Volume k5-day14-docker_redis_data Creating 
+ Network k5-day14-docker_internal Creating 
+ Volume k5-day14-docker_redis_data Created 
+ Volume k5-day14-docker_redis_data Created 
+ Volume k5-day14-docker_qdrant_data Created 
+ Volume k5-day14-docker_qdrant_data Created 
+ Network k5-day14-docker_internal Created 
+ Network k5-day14-docker_internal Created 
+ Container k5-day14-docker-qdrant-1 Creating 
+ Container k5-day14-docker-redis-1 Creating 
+ Container k5-day14-docker-qdrant-1 Created 
+ Container k5-day14-docker-redis-1 Created 
+ Container k5-day14-docker-agent-1 Creating 
+ Container k5-day14-docker-agent-1 Created 
+ Container k5-day14-docker-nginx-1 Creating 
+ Container k5-day14-docker-nginx-1 Created 
+ Container k5-day14-docker-qdrant-1 Starting 
+ Container k5-day14-docker-redis-1 Starting 
+ Container k5-day14-docker-qdrant-1 Started 
+ Container k5-day14-docker-qdrant-1 Waiting 
+ Container k5-day14-docker-redis-1 Started 
+ Container k5-day14-docker-redis-1 Waiting 
+ Container k5-day14-docker-qdrant-1 Healthy 
+ Container k5-day14-docker-redis-1 Healthy 
+ Container k5-day14-docker-agent-1 Starting 
+ Container k5-day14-docker-agent-1 Started 
+ Container k5-day14-docker-nginx-1 Starting 
+ Container k5-day14-docker-nginx-1 Started 

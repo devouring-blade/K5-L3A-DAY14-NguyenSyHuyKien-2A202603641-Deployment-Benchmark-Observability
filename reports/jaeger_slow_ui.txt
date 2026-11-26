@@ -1,0 +1,42 @@
+Jaeger
+Search
+Compare
+System Architecture
+About Jaeger
+observable-agent: POST /ask
+ff18065
+GenAI View
+Trace StartNovember 26 2026, 07:49:18.234Duration1.7sServices1Depth3Total Spans4
+GenAI calls: 1
+0μs
+430ms
+860ms
+1.3s
+1.7s
+Service & Span Name
+0μs
+430ms
+860ms
+1.3s
+1.7s
+1
+observable-agent POST /ask
+200
+POST
+1.7s
+2
+observable-agent agent.run
+1.7s
+observable-agent agent.retrieve_context
+20.6ms
+observable-agent chat mock-llm-small
+mock-llm-small
+1.7s
+chat mock-llm-small
+Service:observable-agentDuration:1.7sStart Time:23.32ms
+Details
+GenAI
+Attributes:gen_ai.operation.name=chatgen_ai.provider.name=mockgen_ai.request.model=mock-llm-smallgen_ai.usage.input_tokens=76gen_ai.usage.output_tokens=39llm.cost_usd=0.0000348
+Resource:agent.version=v2deployment.environment.name=labservice.instance.id=678208683a55service.name=observable-agentservice.version=1.0.0telemetry.sdk.language=pythontelemetry.sdk.name=opentelemetrytelemetry.sdk.version=1.45.2
+ fe87e5d322e9618a
+Copy

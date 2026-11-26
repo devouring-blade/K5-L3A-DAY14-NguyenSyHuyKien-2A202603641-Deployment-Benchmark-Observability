@@ -1,0 +1,3 @@
+IMAGE               ID             DISK USAGE   CONTENT SIZE   EXTRA
+my-agent:advanced   c53843d37e0f        240MB         57.4MB        
+my-agent:develop    2c704bc739dc       1.67GB          426MB        

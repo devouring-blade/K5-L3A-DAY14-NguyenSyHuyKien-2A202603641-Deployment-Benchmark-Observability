@@ -1,0 +1,27 @@
+{
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "version": "1.0.0",
+      "agent_version": "v2",
+      "instance": "e6b0ecb02b1e"
+    }
+  },
+  "ask": {
+    "status": 200,
+    "body": {
+      "answer": "API key là secret dùng để xác thực client. JWT là token chứa claims (sub, role, exp), có chữ ký để server kiểm tra tính toàn vẹn và thời gian hết hạn; token bị sửa hoặc hết hạn phải bị từ chối. API key thường phải rotate và thu hồi trực tiếp, còn JWT được cấp với thời hạn ngắn.",
+      "model": "mock-llm-small",
+      "agent_version": "v2",
+      "usage": {
+        "input_tokens": 102,
+        "output_tokens": 69,
+        "cost_usd": 5.67e-05
+      },
+      "llm_latency_ms": 187.8,
+      "request_id": "244286bca7a8",
+      "trace_id": "002865dea3cf22d35650548ed2ff47b8"
+    }
+  }
+}

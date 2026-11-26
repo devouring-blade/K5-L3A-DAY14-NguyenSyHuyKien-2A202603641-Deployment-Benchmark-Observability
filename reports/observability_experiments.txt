@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "E:\Work_Space\K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability\scripts\run_observability.py", line 173, in <module>
+  File "E:\Work_Space\K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability\scripts\run_observability.py", line 129, in main
+    capture_traces("baseline")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "E:\Work_Space\K5-L3A-DAY14-NguyenSyHuyKien-2A202603641-Deployment-Benchmark-Observability\scripts\run_observability.py", line 98, in capture_traces
+    "service": "observable-agent", "limit": 200, "lookback": "1h"}).json()
+                                                                    ~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 348, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 5 (char 4)

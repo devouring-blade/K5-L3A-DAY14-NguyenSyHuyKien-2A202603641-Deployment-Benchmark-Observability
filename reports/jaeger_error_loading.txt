@@ -1,0 +1,34 @@
+Jaeger
+Search
+Compare
+System Architecture
+About Jaeger
+observable-agent: POST /ask
+144867f
+GenAI View
+Trace StartNovember 26 2026, 07:49:19.220Duration856msServices1Depth3Total Spans4
+GenAI calls: 1
+0μs
+214ms
+428ms
+642ms
+856ms
+Service & Span Name
+0μs
+214ms
+428ms
+642ms
+856ms
+1
+observable-agent POST /ask
+503
+POST
+856ms
+2
+observable-agent agent.run
+853ms
+observable-agent agent.retrieve_context
+15.6ms
+observable-agent chat mock-llm-small
+mock-llm-small
+835ms

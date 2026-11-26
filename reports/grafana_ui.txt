@@ -1,0 +1,56 @@
+Skip to main content
+Grafana
+
+Starred
+
+Dashboards
+
+Alerting
+
+Dashboards
+Day 14 - Agent Observability
+Day 14 — AI Agent Overview
+Search...
+ctrl+k
+Sign in
+Last 15 minutes
+Refresh
+5s
+
+Day 14 — Benchmark & Observability. Dashboard này đọc metrics từ Prometheus (scrape /metrics mỗi 5s).
+🔍 Traces: Jaeger UI · 🚨 Alerts: Prometheus /alerts · 🐝 Load test: Locust · Chạy load test rồi quan sát các panel thay đổi.
+
+🚦 Golden Signals — POST /ask
+Traffic (req/s)
+15.4 req/s
+Error rate
+20.43%
+Latency p95
+1.90 s
+Saturation (in-flight)
+7
+Instances up
+3
+LLM cost (1h)
+$0.6233
+⏱️ Latency & Traffic
+Latency /ask — p50 / p95 / p99
+p50
+p95
+p99
+avg
+Requests/s theo status code
+200
+503
+🤖 LLM — latency, token, cost
+LLM latency p95 theo model
+mock-llm-small
+Tokens/s
+input
+output
+Cost burn rate (USD/giờ)
+USD/giờ
+LLM calls theo kết quả
+Retrieval hit ratio (agent v2)
+Requests/s theo instance
+Phiên bản đang chạy

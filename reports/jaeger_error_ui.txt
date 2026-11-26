@@ -1,0 +1,45 @@
+Jaeger
+Search
+Compare
+System Architecture
+About Jaeger
+observable-agent: POST /ask
+144867f
+GenAI View
+Trace StartNovember 26 2026, 07:49:19.220Duration856msServices1Depth3Total Spans4
+GenAI calls: 1
+0μs
+214ms
+428ms
+642ms
+856ms
+Service & Span Name
+0μs
+214ms
+428ms
+642ms
+856ms
+1
+observable-agent POST /ask
+503
+POST
+856ms
+2
+observable-agent agent.run
+853ms
+observable-agent agent.retrieve_context
+15.6ms
+observable-agent chat mock-llm-small
+mock-llm-small
+835ms
+chat mock-llm-small
+Service:observable-agentDuration:835msStart Time:17.31ms
+Details
+GenAI
+Attributes:error.type=upstream_unavailablegen_ai.operation.name=chatgen_ai.provider.name=mockgen_ai.request.model=mock-llm-small
+Resource:agent.version=v2deployment.environment.name=labservice.instance.id=1d7fe628fdbaservice.name=observable-agentservice.version=1.0.0telemetry.sdk.language=pythontelemetry.sdk.name=opentelemetrytelemetry.sdk.version=1.45.2
+ Events (1)
+exception (852.66ms):exception.escaped=Falseexception.message=Upstream LLM error: 503 Service Unavailable (mock)exception.stacktrace=417 charsexception.type=utils.mock_llm.LLMError
+Event timestamps are relative to the start time of the full trace.
+ 846a358d0c1825e5
+Copy
